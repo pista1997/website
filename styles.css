@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: cursive;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 300%;
+}
+h2 {
+  font-family: 'Gotu', sans-serif;
+  margin-top: 0;
+}
+h3 {
+  font-family: 'Gotu', sans-serif;
+}
+
+.img {
+  border-radius: 100%;
+  width: 350px;
+}
+.imgfl {
+  border-radius: 100%;
+  width: 350;
+  height: 350px;
+  background-color: white;
+}
+
+.top-container {
+  background-color: #b6ffea;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+
+
+}
+.bottom-container {
+
+
+}
+
+.top-cloud {
+position: absolute;
+right: 500px;
+top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  top: 200px;
+}
+
+#profile-picture {
+  margin-top: 20px;
+}
