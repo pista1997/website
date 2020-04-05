@@ -1,59 +1,148 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Gotu', sans-serif;
 }
 h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Dancing Script', cursive;
-  font-size: 300%;
+  font-size: 90px;
+  color: #66BFBF;
+  line-height: 2;
 }
 h2 {
   font-family: 'Gotu', sans-serif;
   margin-top: 0;
+  color: #66BFBF;
+  font-size: 50px;
 }
 h3 {
   font-family: 'Gotu', sans-serif;
+  color: #11999E;
 }
+hr {
+  color: #dee3e2;
+  border-style: none;
+  border-top-style: dotted;
+  width: 6%;
+  border-width: 10px;
 
+}
+a {
+  color: #11999E;
+}
+span {
+  text-decoration: underline;
+}
+.profile {
+  margin: 50px auto 50px auto;
+  width: 55%;
+}
+.skill-row {
+  width: 55%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+.title {
+  font-size: 2.5rem;
+  margin: 10px auto 10px auto;
+  color: #66BFBF;
+  font-weight: normal;
+}
+.profile-picture {
+  border-radius: 100%;
+  width: 35%;
+  margin-top: 30px;
+}
 .img {
   border-radius: 100%;
-  width: 350px;
+  width: 20%;
+  height: 180px;
+  float: right;
+  margin-left: 30px;
 }
 .imgfl {
   border-radius: 100%;
-  width: 350;
-  height: 350px;
+  width: 20%;
   background-color: white;
+  float: left;
+  margin-right: 30px;
 }
 
 .top-container {
-  background-color: #b6ffea;
+  background-color: #ecf4f3;
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
 }
-.middle-container {
 
-
-}
 .bottom-container {
-
-
+  margin: 50px auto 50px auto;
+}
+.contacts {
+  padding: 30px;
+  text-decoration: unset;
+  color: #11999E;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.contacts:hover {
+  color: white;
+}
+.bottom {
+  background-color: #66BFBF;
+  padding: 50px;
 }
 
+.end {
+  color: #EAF6F6;
+  padding-top: 30px
+}
 .top-cloud {
 position: absolute;
-right: 500px;
-top: 50px;
+right: 350px;
+top: 150px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 450px;
-  top: 200px;
+  left: 300px;
+  top: 400px;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 0px #1bc2b4;
+	background:linear-gradient(to bottom, #4e68e6 5%, #2aa0bd 100%);
+	background-color:#4e68e6;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:15px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #50d1d1;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2aa0bd 5%, #4e68e6 100%);
+	background-color:#2aa0bd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
-#profile-picture {
-  margin-top: 20px;
+
+
+#title {
+  font-size: 25px;
+  font-weight: normal;
+
+}
+#tavy {
+  margin-left:  -10px;
+}
+#futbal {
+  margin-right: -10px;
 }
